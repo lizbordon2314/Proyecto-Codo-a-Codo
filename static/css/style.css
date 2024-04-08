@@ -1,0 +1,47 @@
+:root{
+    --bg-color:#181419;
+    --primary-color:#9f3647;
+    --secondary-color:#ffc098;
+    --third-color:#db4648;
+    --third-bis-color:#db4648f2;
+    --bg-input-color:#4f31572c;
+    }
+
+.barraLateral {
+    height: fit-content;
+    width: fit-content;
+    position: static;
+    left: 0;
+    background-color: var(--secondary-color);
+}
+
+.barraLateral a {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: #181419;
+}
+
+.barraLateral a.active {
+    background-color: #ccc;
+}
+
+.encabezado {
+    position:static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.5%;
+    background-color: aquamarine;
+}
+
+.categoria-juego {
+    top: 50.4%;
+    left: 40%;
+}
+.juegos-img{
+    width: 200px;
+    height: 300px;
+    -o-object-fit:cover;
+    object-fit: cover;
+}
